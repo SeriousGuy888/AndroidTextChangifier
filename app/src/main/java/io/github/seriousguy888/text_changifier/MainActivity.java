@@ -25,6 +25,14 @@ public class MainActivity extends AppCompatActivity {
         final int red = getResources().getColor(R.color.red);
 
 
+
+//        Timer timer = new Timer(this, System.currentTimeMillis() / 1000 + 120);
+//        TextView timerView = findViewById(R.id.timer);
+//        timerView.setText((int) timer.getTimeLeft());
+
+
+
+
         final TextView outputField = findViewById(R.id.outputField);
         final EditText inputField = findViewById(R.id.textInput);
 

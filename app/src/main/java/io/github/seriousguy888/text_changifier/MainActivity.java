@@ -26,9 +26,10 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-//        Timer timer = new Timer(this, System.currentTimeMillis() / 1000 + 120);
-//        TextView timerView = findViewById(R.id.timer);
-//        timerView.setText((int) timer.getTimeLeft());
+        Long countdownTo = System.currentTimeMillis() / 1000 + 120;
+        Long timeUntilFinished = System.currentTimeMillis() - countdownTo;
+        TextView timerView = findViewById(R.id.timer);
+        timerView.setText(timeUntilFinished.toString());
 
 
 
